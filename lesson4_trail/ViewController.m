@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "mySecondViewController.h"
+#import "myTableViewController.h"
 @interface ViewController ()
 
 @end
@@ -28,8 +29,11 @@
 
 - (IBAction)pushView:(id)sender {
     mySecondViewController *newMySecondViewController=[[mySecondViewController alloc]init];
+    myTableViewController *newMyTableViewController=[[myTableViewController alloc]init];
     
-    [self.navigationController pushViewController:newMySecondViewController animated:YES];
+    [self.navigationController pushViewController:newMyTableViewController animated:YES];
+    
+    //[self.navigationController pushViewController:newMySecondViewController animated:YES];
     
     
 }

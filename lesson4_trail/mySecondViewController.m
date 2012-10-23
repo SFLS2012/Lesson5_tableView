@@ -7,7 +7,7 @@
 //
 
 #import "mySecondViewController.h"
-
+#import "myTableViewController.h"
 @interface mySecondViewController ()
 
 @end

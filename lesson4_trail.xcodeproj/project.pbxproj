@@ -26,6 +26,8 @@
 		855934CF162D5033003F652F /* lesson4_trailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 855934CE162D5033003F652F /* lesson4_trailTests.m */; };
 		855934DB162D57F4003F652F /* mySecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 855934D9162D57F4003F652F /* mySecondViewController.m */; };
 		855934DC162D57F4003F652F /* mySecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 855934DA162D57F4003F652F /* mySecondViewController.xib */; };
+		859FE43A16368B8E00C49CEB /* myTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859FE43816368B8E00C49CEB /* myTableViewController.m */; };
+		859FE43B16368B8E00C49CEB /* myTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 859FE43916368B8E00C49CEB /* myTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,9 @@
 		855934D8162D57F4003F652F /* mySecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mySecondViewController.h; sourceTree = "<group>"; };
 		855934D9162D57F4003F652F /* mySecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mySecondViewController.m; sourceTree = "<group>"; };
 		855934DA162D57F4003F652F /* mySecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mySecondViewController.xib; sourceTree = "<group>"; };
+		859FE43716368B8E00C49CEB /* myTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myTableViewController.h; sourceTree = "<group>"; };
+		859FE43816368B8E00C49CEB /* myTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTableViewController.m; sourceTree = "<group>"; };
+		859FE43916368B8E00C49CEB /* myTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = myTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +136,9 @@
 				855934DA162D57F4003F652F /* mySecondViewController.xib */,
 				855934B2162D5033003F652F /* ViewController.h */,
 				855934B3162D5033003F652F /* ViewController.m */,
+				859FE43716368B8E00C49CEB /* myTableViewController.h */,
+				859FE43816368B8E00C49CEB /* myTableViewController.m */,
+				859FE43916368B8E00C49CEB /* myTableViewController.xib */,
 				855934B5162D5033003F652F /* ViewController_iPhone.xib */,
 				855934B8162D5033003F652F /* ViewController_iPad.xib */,
 				855934A1162D5033003F652F /* Supporting Files */,
@@ -249,6 +257,7 @@
 				855934B7162D5033003F652F /* ViewController_iPhone.xib in Resources */,
 				855934BA162D5033003F652F /* ViewController_iPad.xib in Resources */,
 				855934DC162D57F4003F652F /* mySecondViewController.xib in Resources */,
+				859FE43B16368B8E00C49CEB /* myTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +296,7 @@
 				855934AB162D5033003F652F /* AppDelegate.m in Sources */,
 				855934B4162D5033003F652F /* ViewController.m in Sources */,
 				855934DB162D57F4003F652F /* mySecondViewController.m in Sources */,
+				859FE43A16368B8E00C49CEB /* myTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +481,7 @@
 				855934D4162D5033003F652F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		855934D5162D5033003F652F /* Build configuration list for PBXNativeTarget "lesson4_trailTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +490,7 @@
 				855934D7162D5033003F652F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

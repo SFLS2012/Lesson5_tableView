@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface mySecondViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *toTableView;
 
 @end
